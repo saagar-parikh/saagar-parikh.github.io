@@ -17,7 +17,7 @@ Zwicky Transient Facility (ZTF) survey and used API queries and data visualizati
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/caltech-flowchart.jpg" class="img-fluid rounded z-depth-1" align="center" %}
+        {% include figure.html path="assets/img/caltech-flowchart.jpeg" class="img-fluid rounded z-depth-1" align="center" %}
     </div>
 </div>
 <div class="caption">
