@@ -1,19 +1,29 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Automated Active Learning for ZTF Data
+description: 
+img: assets/img/caltech-ztf-banner.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Formulated a robust active learning framework with automation in selecting the data points to be labeled to reduce human
+efforts by 90% and improve the performance of existing classification models such as DNN and XGBoost.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Analyzed billions of astronomical sources and their time-series representation of varying intensities (light curves) from the
+Zwicky Transient Facility (ZTF) survey and used API queries and data visualization for preprocessing tasks
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/caltech-flowchart.jpg" class="img-fluid rounded z-depth-1" align="center" %}
+    </div>
+</div>
+<div class="caption">
+    Active learning pipeline that selects the most impactful sources using: i. the 6 types based on the classification scores, ii. spatial cross-matching and demanding agreement between the g and r bands, iii. braai scores, and iv. amplitudes.
+</div>
+<!---
     ---
     layout: page
     title: project
