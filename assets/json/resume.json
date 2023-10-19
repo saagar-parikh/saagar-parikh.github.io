@@ -19,6 +19,31 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Carnegie Mellon University, Pittsburgh, PA",
+      "url": "https://www.cmu.edu/",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2023-08",
+      "endDate": "2024-12",
+      "score": "",
+      "courses": [
+        "18797 - Machine Learning for Signal Processing",
+        "18781 - Speech Recognition and Understanding",
+        "18740 - Building Reliable Distributed Systems"
+      ]
+    },
+    {
+      "institution": "Indian Institute of Technology Gandhinagar, Gandhinagar, India",
+      "url": "https://www.iitgn.ac.in",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2019-07",
+      "endDate": "2023-07",
+      "score": "9.08/10 (Rank 2)",
+    }
+  ],  
   "work": [
     {
       "name": "California Institute of Technology",
@@ -43,29 +68,38 @@
     }
   ],
   "volunteer": [],
-  "education": [
-    {
-      "institution": "Carnegie Mellon University, Pittsburgh, PA",
-      "url": "https://www.cmu.edu/",
-      "area": "Electrical and Computer Engineering",
-      "studyType": "MS",
-      "startDate": "2023-08",
-      "endDate": "2024-12",
-      "score": "",
-      "courses": [
-        "18797 - Machine Learning for Signal Processing",
-        "18781 - Speech Recognition and Understanding",
-        "18740 - Building Reliable Distributed Systems"
-      ]
-    }
-  ],
   "certificates": [],
   "publications": [],
-  "skills": [],
+  "skills": [
+    "Python", "C", "Verilog", "Assembly", "Dart", "PyTorch", "Keras", "Tensorflow", "JAX", "Flax", "GPyTorch", "OpenCV", "Matplotlib", "Numpy", "Pandas", "MATLAB",
+"Git", "GitHub", "STM32", "Arduino", "MeshLab", "Flutter", "Xilinx Vivado", "LTSpice", "LabVIEW"
+  ],
+  "awards": [
+    {
+      "title": "Institute Silver Medal",
+      "date": "2023-07-29",
+      "awarder": "Indian Institute of Technology Gandhinagar",
+      "summary": "Awarded for securing the 2nd highest CPI in the discipline at the time of graduation."
+    },
+    {
+      "title": "Dean’s List in all eligible semesters",
+      "date": "2023-01",
+      "awarder": "Indian Institute of Technology Gandhinagar",
+      "summary": "Awarded for academic excellence in semesters I, III, IV, V, VI at IIT Gandhinagar."
+    }    
+  ],
   "languages": [
     {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Gujarati",
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [],
