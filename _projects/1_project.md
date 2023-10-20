@@ -19,16 +19,3 @@ Zwicky Transient Facility (ZTF) survey and used API queries and data visualizati
 <p align="center"><img src="/assets/img/caltech-flowchart.jpeg" alt="flowchart" width="60%"></p>
 
 Active learning pipeline that selects the most impactful sources using: i. the 6 types based on the classification scores, ii. spatial cross-matching and demanding agreement between the g and r bands, iii. braai scores, and iv. amplitudes.
-
-
-
-<!--
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/caltech-flowchart.jpeg" class="img-fluid rounded z-depth-1" align="center" width="500" %}
-    </div>
-</div>
-<div class="caption">
-    Active learning pipeline that selects the most impactful sources using: i. the 6 types based on the classification scores, ii. spatial cross-matching and demanding agreement between the g and r bands, iii. braai scores, and iv. amplitudes.
-</div>
--->
