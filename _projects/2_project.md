@@ -1,7 +1,7 @@
 ---
 layout: page
-title: BIJAX
-description: Bayesian Inference in JAX
+title: BIJAX: Bayesian Inference in JAX
+description:
 img: assets/img/3.jpg
 importance: 2
 category: work
