@@ -17,18 +17,10 @@
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
-                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-              {%- if project.github_stars -%}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {%- endif %}
+                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i>&nbsp;</a>
             {%- endif %}
             {%- if project.project_pdf -%}
-                <span style="padding-left: 10px;">
                 <a href="{{ project.project_pdf }}"><i class="fas fa-file-pdf"></i></a>
-                </span>
             {%- endif -%}
           </div>
         </div>
