@@ -17,7 +17,7 @@ related_publications:
   </tr>
   <tr>
     <td align="left" width="50%">California Institute of Technology</td>
-    <td align="left" width="50%">Pasadena, PA</td>
+    <td align="right" width="50%">Pasadena, PA</td>
   </tr>
 </table>
 
