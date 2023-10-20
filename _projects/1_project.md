@@ -5,6 +5,7 @@ description:
 img: assets/img/caltech-ztf-banner.jpg
 importance: 1
 category: work
+github: https://github.com/saagar-parikh/scope
 related_publications: 
 ---
 
