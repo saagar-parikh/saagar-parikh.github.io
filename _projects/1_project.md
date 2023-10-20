@@ -16,10 +16,11 @@ efforts by 90% and improve the performance of existing classification models suc
 Analyzed billions of astronomical sources and their time-series representation of varying intensities (light curves) from the
 Zwicky Transient Facility (ZTF) survey and used API queries and data visualization for preprocessing tasks
 
-<figure>
-    <img src="assets/img/caltech-flowchart.jpeg" alt="flowchart" align="middle" width="500">
-    <figcaption>Active learning pipeline that selects the most impactful sources using: i. the 6 types based on the classification scores, ii. spatial cross-matching and demanding agreement between the g and r bands, iii. braai scores, and iv. amplitudes.</figcaption>
-</figure>
+<p align="center"><img src="/assets/img/caltech-flowchart.jpeg" alt="flowchart" width="60%"></p>
+
+Active learning pipeline that selects the most impactful sources using: i. the 6 types based on the classification scores, ii. spatial cross-matching and demanding agreement between the g and r bands, iii. braai scores, and iv. amplitudes.
+
+
 
 <!--
 <div class="row">
