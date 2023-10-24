@@ -2,7 +2,7 @@
 layout: page
 title: BIJAX - Bayesian Inference in JAX
 description:
-img: assets/img/bijax-cover.png
+img: assets/img/bijax-cover.gif
 importance: 2
 category: work
 giscus_comments: false
