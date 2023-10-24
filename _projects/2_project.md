@@ -29,6 +29,9 @@ The results of Laplace Approximation for fully bayesian network, last-layer baye
 <p align="center"><img src="/assets/img/bijax-laplace-subnet.png" width="40%">
   
 <p align="center">Laplace Approximation using subnetwork for regression on a 2D dataset. MAP, fullrank (left to right)
+</p>
+
+
 
 ### Hamiltonian Monte Carlo (HMC) on the Digits dataset
 
