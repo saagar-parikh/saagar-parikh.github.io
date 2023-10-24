@@ -16,9 +16,19 @@ github: https://github.com/saagar-parikh/bijax
 
 The results of Laplace Approximation for fully bayesian network, last-layer bayesian network, and subnet bayesian network are shown in the figures below.
 
-<p align="center"><img src="/assets/img/bijax-hmc-results.png" width="100%">Laplace Approximation using all layers for regression on a 2D dataset. MAP, fullrank, lowrank, diag, kron (left to right)
-<p align="center"><img src="/assets/img/bijax-hmc-results.png" width="80%">Laplace Approximation using last layer for regression on a 2D dataset. MAP, fullrank, diag, kron (left to right)
-<p align="center"><img src="/assets/img/bijax-hmc-results.png" width="40%">Laplace Approximation using subnetwork for regression on a 2D dataset. MAP, fullrank (left to right)
+<p align="center"><img src="/assets/img/bijax-laplace-all.png" width="100%">Laplace Approximation using all layers for regression on a 2D dataset. MAP, fullrank, lowrank, diag, kron (left to right)
+
+
+
+<p align="center"><img src="/assets/img/bijax-laplace-last.png" width="80%">
+  
+<p align="center">Laplace Approximation using last layer for regression on a 2D dataset. MAP, fullrank, diag, kron (left to right)
+
+
+
+<p align="center"><img src="/assets/img/bijax-laplace-subnet.png" width="40%">
+  
+<p align="center">Laplace Approximation using subnetwork for regression on a 2D dataset. MAP, fullrank (left to right)
 
 ### Hamiltonian Monte Carlo (HMC) on the Digits dataset
 
@@ -26,7 +36,8 @@ For the case of out of distribution data (the letter 'A' is out of distribution 
 We define an uncertainty metric 'entropy' which provides information on how uncertain the model is (higher is more uncertain). The results below show that the HMC model predicts a class with low confidence and high entropy.
 
 <p align="center"><img src="/assets/img/bijax-hmc-results.png" width="40%">
-Ground Truth, Predicted Class, Predicted Class Probability and Entropy
+
+<p align="center">Ground Truth, Predicted Class, Predicted Class Probability and Entropy
 </p>
 
 ### Accuracy and Timing Analysis
@@ -34,7 +45,7 @@ Ground Truth, Predicted Class, Predicted Class Probability and Entropy
 <table>
   <tr>
     <td><p align="center"><figure><img src="/assets/img/bijax-acc.png", width="100%"><figcaption>Comparable accuracies for different models</figcaption></figure></p></td>
-    <td><p align="center"><figure><img src="/assets/img/bijax-timing", width="100%"><figcaption>Time taken for training different models</figcaption></figure></p></td>
+    <td><p align="center"><figure><img src="/assets/img/bijax-timing.png", width="100%"><figcaption>Time taken for training different models</figcaption></figure></p></td>
   </tr>
 </table>
 
