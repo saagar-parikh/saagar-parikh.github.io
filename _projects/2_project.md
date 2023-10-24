@@ -47,8 +47,8 @@ We define an uncertainty metric 'entropy' which provides information on how unce
 
 <table>
   <tr>
-    <td><p align="center"><figure><img src="/assets/img/bijax-acc.png", width="100%"><figcaption>Comparable accuracies for different models</figcaption></figure></p></td>
-    <td><p align="center"><figure><img src="/assets/img/bijax-timing.png", width="100%"><figcaption>Time taken for training different models</figcaption></figure></p></td>
+    <td><p align="center"><figure><img src="/assets/img/bijax-acc.png" width="100%"><figcaption>Comparable accuracies for different models</figcaption></figure></p></td>
+    <td><p align="center"><figure><img src="/assets/img/bijax-timing.png" width="100%"><figcaption>Time taken for training different models</figcaption></figure></p></td>
   </tr>
 </table>
 
