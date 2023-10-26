@@ -10,7 +10,7 @@ project_pdf: https://arxiv.org/abs/2211.11040
 
 - Designed a residual-block based novel architecture that outperformed the baselines by 4% for the segmentation task on ShapeNetPart dataset and produced comparable results for the classification task on the ModelNet-40 dataset.
 - The network takes n input points and applies transformations, several multi-layer perceptron (MLP) layers with skip connections, and then aggregates features using max pooling. The classification network applies fully connected and dropout layers and obtains k scores for k classes. The segmentation network extends the classification network by combining local and global features, using convolutional layers, and finally giving per point scores as output. The connected skip layers represent ResBlock-n, where n is the number of features of a single block layer. Numbers in MLP layers represent a number of features.
-<p align="center"><img src="/assets/img/pointresnet-block.png"></p>
+<p align="center"><img src="/assets/img/pointresnet-block.png" width="100%"></p>
 
 
 <p align="center"><img src="/assets/img/pointresnet-seg.png" width="50%"></p>
@@ -18,8 +18,8 @@ project_pdf: https://arxiv.org/abs/2211.11040
 
 
 <div align="center">
-
-<table>
+    
+<table class="tg">
     <tr>
         <td></td>
         <td>Eval acc &#8593;</td>
