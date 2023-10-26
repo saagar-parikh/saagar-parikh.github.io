@@ -12,7 +12,7 @@ github: https://github.com/saagar-parikh/DeepGP-AQ-Inference
 - Achieved comparable results using Deep Gaussian Processes with a simple kernel and Deep Kernel Learning methods to capture domain knowledge by extracting hierarchical features.
 
 
-<p align="center"><img src="/assets/img/deepgp-data.png" alt="data" width="60%"></p>
+<p align="center"><img src="/assets/img/deepgp-data.png" alt="data" width="40%"></p>
 <p align="center">Distribution of air quality stations in Beijing</p>
 
 
