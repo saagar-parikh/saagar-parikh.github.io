@@ -10,16 +10,22 @@ project_pdf: https://arxiv.org/abs/2211.11040
 
 - Designed a residual-block based novel architecture that outperformed the baselines by 4% for the segmentation task on ShapeNetPart dataset and produced comparable results for the classification task on the ModelNet-40 dataset.
 - The network takes n input points and applies transformations, several multi-layer perceptron (MLP) layers with skip connections, and then aggregates features using max pooling. The classification network applies fully connected and dropout layers and obtains k scores for k classes. The segmentation network extends the classification network by combining local and global features, using convolutional layers, and finally giving per point scores as output. The connected skip layers represent ResBlock-n, where n is the number of features of a single block layer. Numbers in MLP layers represent a number of features.
-<p align="center"><img src="/assets/img/pointresnet-block.png" width="100%"></p>
+<div align="center"><img src="/assets/img/pointresnet-block.png" width="100%">
+
+PointResNet architecture
+</div>
 
 
-<p align="center"><img src="/assets/img/pointresnet-seg.png" width="50%"></p>
-<p align="center">Qualitative comparison of part segmentation results on ShapeNetPart dataset</p>
+
+<div align="center"><img src="/assets/img/pointresnet-seg.png" width="50%">
+
+
+Qualitative comparison of part segmentation results on ShapeNetPart dataset</div>
 
 
 <div align="center">
     
-<table class="tg">
+<table class="tg" style="width:30%">
     <tr>
         <td></td>
         <td>Eval acc &#8593;</td>
@@ -54,7 +60,7 @@ Quantitative comparison of part segmentation results on ShapeNetPart dataset
 
 <div align="center">
 
-<table class="tg">
+<table class="tg" style="width:50%">
 <thead>
   <tr>
     <th></th>
@@ -66,9 +72,9 @@ Quantitative comparison of part segmentation results on ShapeNetPart dataset
   <tr>
     <td></td>
     <td>Eval acc</td>
-    <td>Eval avg class acc</td>
+    <td>Eval avg<br>class acc</td>
     <td>Eval acc</td>
-    <td>Eval avg class acc</td>
+    <td>Eval avg<br>class acc</td>
   </tr>
   <tr>
     <td>PointNet</td>
