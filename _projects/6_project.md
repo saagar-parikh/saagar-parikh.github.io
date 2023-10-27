@@ -2,7 +2,7 @@
 layout: page
 title: 3D position estimation of a robotic manipulator arm using Microsoft Kinect sensor
 description:
-img: assets/img/3.jpg
+img: 
 importance: 6
 category: work
 ---
