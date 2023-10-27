@@ -20,8 +20,9 @@ PointResNet architecture
 <div align="center"><img src="/assets/img/pointresnet-seg.png" width="50%">
 
 
-Qualitative comparison of part segmentation results on ShapeNetPart dataset</div>
-
+Qualitative comparison of part segmentation results on ShapeNetPart dataset
+</div>
+<p></p>
 
 <div align="center">
     
@@ -56,7 +57,7 @@ Qualitative comparison of part segmentation results on ShapeNetPart dataset</div
 Quantitative comparison of part segmentation results on ShapeNetPart dataset
 </div>
 
-
+<p></p>
 
 <div align="center">
 
