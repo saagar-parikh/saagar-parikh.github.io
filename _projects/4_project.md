@@ -2,7 +2,7 @@
 layout: page
 title: Comprehensive study of Face R-CNN
 description:
-img: assets/img/3.jpg
+img: assets/img/facercnn-cover.png
 importance: 4
 category: work
 github: 
