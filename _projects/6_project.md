@@ -101,29 +101,33 @@ github: https://github.com/saagar-parikh/image-enhancement-verilog/
 </tbody>
 </table>
 
-## Brief
+<h2> Brief</h2>
 
-**Algorithms used:**
-  1. [Histogram Equalisation](#1-histogram-equalisation)
-  2. [Histogram Matching](#2-histogram-matching)
-  3. [Double Plateau Histogram Equalisation](#3-double-plateau-histogram-equalisation)
-  4. [Top Hat Transform](#4-top-hat-transform)
+<b>Algorithms used:</b>
+<ol>
+  <li>Histogram Equalisation
+  <li>Histogram Matching
+  <li>Double Plateau Histogram Equalisation
+  <li>Top Hat Transform
+</ol>  
 <!--
 * [**Performance Comparison**](#performance-comparison-of-the-algorithms)
 * [**Verilog Implementation**](#verilog-implementation)
 * [**Future Scope**](#future-scope)
 * [**Acknowledgement**](#acknowledgement)
 -->
-**Dataset:** [ir:iricra2014 – ASL Datasets](https://projects.asl.ethz.ch/datasets/doku.php?id=ir:iricra2014)
+<b>Dataset:</b> <a href="https://projects.asl.ethz.ch/datasets/doku.php?id=ir:iricra2014">ir:iricra2014 – ASL Datasets</a>
 
-## Algorithms
+<h2>Algorithms</h2>
+<h3>1. Histogram Equalisation</h3>
+<ul>
+  <li>A contrast stretching algorithm with a mathematical function that uniformly stretches the image histogram.</li>
+  <li>Calculate the  probability and cumulative distribution function(CDF) of gray scale values, normalize the values by multiplying  CDF values with the greatest gray scale level.</li>
+  <li>Stretches the intensity values present in the image to the entire range of intensity values, thus increasing the contrast of the image.</li>
+</ul>
 
-### 1. Histogram Equalisation
-* A contrast stretching algorithm with a mathematical function that uniformly stretches the image histogram.
-* Calculate the  probability and cumulative distribution function(CDF) of gray scale values, normalize the values by multiplying  CDF values with the greatest gray scale level.
-* Stretches the intensity values present in the image to the entire range of intensity values, thus increasing the contrast of the image.
 
-**Sample Results:**
+<b>Sample Results:</b>
 
 <table border="0">
  <tr>
@@ -160,13 +164,14 @@ github: https://github.com/saagar-parikh/image-enhancement-verilog/
 </table>
 
 
-### 2. Histogram Matching
-* Extension of histogram equalization.
-* This algorithm transforms a target image so that it’s histogram matches with the histogram of a given reference image.
-* Firstly, histogram equalization is performed on both, the target and the reference image, which is then followed by the matching part.
-* The target image histogram is manipulated such that it matches the histogram of the reference image.
-
-**Sample Results:**
+<h2>2. Histogram Matching</h2>
+<ul>
+  <li>Extension of histogram equalization.
+  <li>This algorithm transforms a target image so that it’s histogram matches with the histogram of a given reference image.
+  <li>Firstly, histogram equalization is performed on both, the target and the reference image, which is then followed by the matching part.
+  <li>The target image histogram is manipulated such that it matches the histogram of the reference image.
+</ul>
+<b>Sample Results:</b>
 
 <table border="0">
  <tr>
@@ -215,12 +220,13 @@ github: https://github.com/saagar-parikh/image-enhancement-verilog/
  </tr>
 </table>
 
-### 3. Double Plateau Histogram Equalisation
-* In the image histogram, there are certain grayscale values (bins) which have exceptionally high frequencies while some have very low.
-* Thus, we select two threshold values of frequencies, and clip the bins according to these thresholds.
-* The excess pixels in a high frequency bin are redistributed into the bins having low frequencies.
-
-**Sample Results:**
+<h2>3. Double Plateau Histogram Equalisation</h2>
+<ul>
+  <li>In the image histogram, there are certain grayscale values (bins) which have exceptionally high frequencies while some have very low.
+  <li>Thus, we select two threshold values of frequencies, and clip the bins according to these thresholds.
+  <li>The excess pixels in a high frequency bin are redistributed into the bins having low frequencies.
+</ul>
+<b>Sample Results:</b>
 
 <table border="0">
  <tr>
@@ -256,16 +262,17 @@ github: https://github.com/saagar-parikh/image-enhancement-verilog/
  </tr>
 </table>
 
-**Clipped Frequencies Graph:**
+<b>Clipped Frequencies Graph:</b>
  <p align="center">
    <img width="400" src="https://github.com/saagar-parikh/image-enhancement-verilog/blob/main/Week2/Double Plateaus Histogram Equalisation/1-clipped-freq-graph.png">
  </p>
 
-### 4. Top Hat Transform
-* In digital image processing, the algorithm extracts minute elements and details from the images.
-* Considering structural elements, the filter enhances bright  objects of interests in a dark background.
-* Hence, it focuses on enhancing the light pixels in dark background.
-
+<h2>4. Top Hat Transform</h2>
+<ul>
+  <li>In digital image processing, the algorithm extracts minute elements and details from the images.
+  <li>Considering structural elements, the filter enhances bright  objects of interests in a dark background.
+  <li>Hence, it focuses on enhancing the light pixels in dark background.
+</ul>
 <table border="0">
  <tr>
     <td><b style="font-size:15px"><p align="center">Original Image</b></td>
@@ -285,38 +292,48 @@ github: https://github.com/saagar-parikh/image-enhancement-verilog/
  </tr>
 </table>
 
-## Performance Comparison of the Algorithms
-* **Peak Signal to Noise Ratio (PSNR)**: It uses the mean squared error of all the pixels between the two images to compute an expression.
-* The higher the PSNR value, the better the image enhancement.
-* We compare the PSNR value of all the 4 new images with an enhanced image obtained using an advanced, inbuilt image processing function on MATLAB.
-* Based on the PSNR values, Double Plateaus Histogram Equalization and Histogram Equalization were the best performing algorithms.
+<h2>Performance Comparison of the Algorithms</h2>
+<ul>
+  <li><b>Peak Signal to Noise Ratio (PSNR)</b>: It uses the mean squared error of all the pixels between the two images to compute an expression.
+  <li>The higher the PSNR value, the better the image enhancement.
+  <li>We compare the PSNR value of all the 4 new images with an enhanced image obtained using an advanced, inbuilt image processing function on MATLAB.
+  <li>Based on the PSNR values, Double Plateaus Histogram Equalization and Histogram Equalization were the best performing algorithms.
+</ul>
 
+<p>
 Results:
-* Histogram Equalisation PSNR = 14.132
-* Histogram Matching PSNR = 13.722
-* Double Plateau Histogram Equalisation PSNR = 21.523
-* Top Hat Transform PSNR = 9.854
+<ul>
+  <li>Histogram Equalisation PSNR = 14.132
+  <li>Histogram Matching PSNR = 13.722
+  <li>Double Plateau Histogram Equalisation PSNR = 21.523
+  <li>Top Hat Transform PSNR = 9.854
+</ul>
 
-## Verilog Implementation
+<h2>Verilog Implementation</h2>
 
-### 1. Reading images in Vivado
-* Images need to be converted to binary text files to be read onto Vivado.
-* The entire image is flattened to a 1 D array, each element contains the pixel’s intensity value in binary 8 bit format using Python.
-* The file can be read using the readmemb function on Vivado.
-
-### 2. Performing the algorithms in Vivado
-* The image is read on the testbench and passed to the design module.
-* The design consists of a single module:
- * It inputs the image as a 1 D array and converts it to a 2 D array of dimensions same as that of the original image.
- * The algorithm is now performed on this 2 D array that represents the image.
- * This image is again flattened to a 1 D image and sent as an output to the testbench.
+<h3>1. Reading images in Vivado</h3>
+<ul>
+  <li>Images need to be converted to binary text files to be read onto Vivado.
+  <li>The entire image is flattened to a 1 D array, each element contains the pixel’s intensity value in binary 8 bit format using Python.
+  <li>The file can be read using the readmemb function on Vivado.
+</ul>
+<h3>2. Performing the algorithms in Vivado</h3> 
+<ul>
+  <li>The image is read on the testbench and passed to the design module.
+  <li>The design consists of a single module:
+    <ul>
+      <li>It inputs the image as a 1 D array and converts it to a 2 D array of dimensions same as that of the original image.
+      <li>The algorithm is now performed on this 2 D array that represents the image.
+      <li>This image is again flattened to a 1 D image and sent as an output to the testbench.
+    </ul>
+<p>
 The output is received at the testbench and written into a binary file.
 This binary text file is converted to obtain the new image using python.
 
-### 3. Comparing the algorithms in Vivado
+<h2>3. Comparing the algorithms in Vivado</h2>
 
-Comparison:
-
+<b>Comparison:</b>
+<p>
 PSNR values of images obtained from both the algorithms for different images:
 
 <table border="0">
@@ -347,13 +364,12 @@ PSNR values of images obtained from both the algorithms for different images:
  </tr> 
 </table>
 
-* After performing the algorithms on different images, we can see that the PSNR values are higher for Double Plateaus Histogram Equalization in all cases.
-* Thus, Double Plateaus Histogram Equalization is the best amongst the ones that were used.
-
-## Future Scope
-* If we are able to perform these algorithms on each frame in a video fast enough, we can get real time video enhancement.
-* Applying these algorithms on Night vision goggles can improve the enhancement of images.
-
-## Acknowledgement
-
-The code and documentation has been done by all 4 team members Aadesh Desai, Eshan Gujarathi, Saagar Parikh and Sanjay Venkitesh. We would like to thank Prof. Joycee Mekie (Assistant Professor, IIT Gandhinagar) and the Teaching Assistants for providing us with the necessary guidance during the course of the project.
+<ul>
+  <li>After performing the algorithms on different images, we can see that the PSNR values are higher for Double Plateaus Histogram Equalization in all cases.
+  <li>Thus, Double Plateaus Histogram Equalization is the best amongst the ones that were used.
+</ul>
+<h2>Future Scope</h2>
+<ul>
+  <li>If we are able to perform these algorithms on each frame in a video fast enough, we can get real time video enhancement.
+  <li>Applying these algorithms on Night vision goggles can improve the enhancement of images.
+</ul>
