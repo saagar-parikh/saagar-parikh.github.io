@@ -12,7 +12,7 @@ github:
 - Examined prominent pre-existing deep learning neural networks such as VGG, LeNet, AlexNet, and FaceNet and learned how they materialized into a new face detection network called Face R-CNN.
 
 
-<div align="center"><img src="facercnn-results.png" align="center" width="100%">
+<div align="center"><img src="/assets/img/facercnn-results.png" align="center" width="80%">
 
   
 Results on WIDER FACE dataset. The red boxes or ellipses are the ground-truth annotations. The green boxes are the predicted results.
