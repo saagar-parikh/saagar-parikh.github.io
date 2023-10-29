@@ -14,12 +14,16 @@ github: https://github.com/saagar-parikh/DeepGP-AQ-Inference
 
 <div align="center"><img src="/assets/img/deepgp-data.png" alt="data" width="40%">
 
-  
-Distribution of air quality stations in Beijing</div>
+<p align="center">
+Distribution of air quality stations in Beijing
+</p>
+</div>
+
 
 
 <div align="center"><img src="/assets/img/deepgp-results.png" alt="results" width="60%">
 
-  
-Predicted PM2.5 comparison with the ground truth values for DSVI model at station 1006</div>
+<p align="center">
+Predicted PM2.5 comparison with the ground truth values for DSVI model at station 1006
+</p></div>
 
