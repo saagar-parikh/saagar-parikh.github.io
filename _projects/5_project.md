@@ -13,6 +13,7 @@ project_pdf: https://arxiv.org/abs/2211.11040
 <div align="center"><img src="/assets/img/pointresnet-block.png" width="100%">
 <p align="center">
 PointResNet architecture
+</p>
 </div>
 
 
@@ -21,6 +22,7 @@ PointResNet architecture
 
 <p align="center">
 Qualitative comparison of part segmentation results on ShapeNetPart dataset
+</p>
 </div>
 <p></p>
 
@@ -53,9 +55,9 @@ Qualitative comparison of part segmentation results on ShapeNetPart dataset
     </tr>
 </table>
 
-
+<p align="center">
 Quantitative comparison of part segmentation results on ShapeNetPart dataset
-</div>
+</p></div>
 
 <p></p>
 
