@@ -9,7 +9,7 @@ github: https://github.com/saagar-parikh/scope
 project_pdf: https://drive.google.com/file/d/1yAK0L4ZAONK__nz-AtWX9mYuta2f_DDQ/view?usp=share_link
 related_publications: 
 ---
-
+<!--
 <table>
   <tr>
     <td align="left" width="50%">Summer Undergraduate Research Fellow</td>
@@ -20,6 +20,7 @@ related_publications:
     <td align="right" width="50%">Pasadena, PA</td>
   </tr>
 </table>
+-->
 
 - Formulated a robust active learning framework with automation in selecting the data points to be labeled to reduce human efforts by 90% and improve the performance of existing classification models such as DNN and XGBoost.
 - Analyzed billions of astronomical sources and their time-series representation of varying intensities (light curves) from the Zwicky Transient Facility (ZTF) survey and used API queries and data visualization for preprocessing tasks
