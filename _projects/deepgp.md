@@ -11,7 +11,7 @@ github: https://github.com/saagar-parikh/DeepGP-AQ-Inference
 - Achieved comparable results using Deep Gaussian Processes with a simple kernel and Deep Kernel Learning methods to capture domain knowledge by extracting hierarchical features.
 - **Extended abstract published at YRS, [CODS-COMAD 2023](https://cods-comad.in/2023/)**
 
-See more:
+Quick Links:
 - [GitHub](https://github.com/saagar-parikh/DeepGP-AQ-Inference)
 - [doi](https://dl.acm.org/doi/10.1145/3570991.3571004)
 - [Poster](https://drive.google.com/file/d/1mSVTieApr4TRH4VUvme1KEJCV3uX3RCx/view?usp=drive_link)
@@ -36,4 +36,4 @@ Predicted PM2.5 comparison with the ground truth values for DSVI model at statio
 
 ### Poster
 
-<p align="center"><img src="/assets/img/deepgp-poster.png" alt="poster" width="40%"></p>
+<p align="center"><img src="/assets/img/deepgp-poster.png" alt="poster" width="60%"></p>
