@@ -3,7 +3,7 @@ layout: page
 title: Enhancement of Infrared Night Vision Images
 description:
 img: assets/img/imgenhance-cover.png
-importance: 6
+importance: 8
 category: work
 github: https://github.com/saagar-parikh/image-enhancement-verilog/
 ---
