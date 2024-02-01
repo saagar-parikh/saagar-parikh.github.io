@@ -3,7 +3,7 @@ layout: page
 title: BIJAX - Bayesian Inference in JAX
 description:
 img: assets/img/bijax-cover.gif
-importance: 2
+importance: 4
 category: work
 giscus_comments: false
 github: https://github.com/saagar-parikh/bijax
