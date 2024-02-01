@@ -12,6 +12,10 @@ github: https://github.com/saagar-parikh/bijax
 - Contributed to an open-source Python library with a unified and transparent approach for various distribution approximation techniques such as Laplace Approximation and Markov Chain Monte Carlo (MCMC) sampling.
 - Reinforced the approximation methods by adding extensive functionalities such as Full rank, Low rank, Mean Field, Subnetwork, Last Layer, and Kronecker-Factored Approximate Curvature (KFAC).
 
+Quick Links:
+- [GitHub](https://github.com/saagar-parikh/bijax)
+- [Report](https://drive.google.com/file/d/1Rxjjhxk_NLw0Fms4-9XcSviInmZf9wMI/view?usp=drive_link)
+
 ### Laplace Approximation
 
 The results of Laplace Approximation for fully bayesian network, last-layer bayesian network, and subnet bayesian network are shown in the figures below.
@@ -52,3 +56,7 @@ We define an uncertainty metric 'entropy' which provides information on how unce
   </tr>
 </table>
 
+### Poster
+
+<p align="center"><img src="/assets/img/bijax-poster.png" width="70%">
+</p>
