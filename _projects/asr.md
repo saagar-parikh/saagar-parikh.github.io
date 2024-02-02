@@ -23,7 +23,9 @@ Quick links:
 ### Rescoring pipeline for improving ASR
 
 <div align="center"><img src="/assets/img/asr-flowchart.png" alt="flowchart" width="60%">
+<p align="center">
 Rescore branchformer-based ASR model with scores from LLM to rerank hypotheses and improve ASR performance
+</p>
 </div>
 
 ### Slide Deck
