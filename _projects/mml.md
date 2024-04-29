@@ -7,6 +7,7 @@ importance: 1
 category: work
 giscus_comments: false
 github: https://github.com/saagar-parikh/soundsense
+project_pdf: https://drive.google.com/file/d/1gd2CBqqZalmUbNeanGAYaw2Z3fgrqGhR/view?usp=drive_link
 ---
 
 - Developed a novel multimodal approach to robotic manipulation by integrating audio cues with visual information to tackle visually challenging scenarios such as occluded scenes and collision detection
