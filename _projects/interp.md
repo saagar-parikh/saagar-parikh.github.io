@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Audio-Visual Robot Learning
+title: Stable Diffusion Interpretability and Analysis
 description:
 img: assets/img/interp-cover.gif
 importance: 2
 category: work
 giscus_comments: false
-github: https://github.com/saagar-parikh/soundsense
-project_pdf: https://drive.google.com/file/d/1gd2CBqqZalmUbNeanGAYaw2Z3fgrqGhR/view?usp=drive_link
 ---
 
 - Investigated layers and attention heads in the CLIP Text Encoder in stable diffusion models, focusing on prompts involving negation and bias.
