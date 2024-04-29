@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rescoring Automatic Speech Recognition with LLMs
+title: LLM Integration in Automatic Speech Recognition
 description: 
 img: assets/img/asr-cover.png
 importance: 2
