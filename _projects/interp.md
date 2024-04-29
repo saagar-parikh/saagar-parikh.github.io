@@ -2,7 +2,7 @@
 layout: page
 title: Audio-Visual Robot Learning
 description:
-img: assets/img/mml-cover.gif
+img: assets/img/interp-cover.gif
 importance: 2
 category: work
 giscus_comments: false
