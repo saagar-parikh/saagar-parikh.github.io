@@ -3,7 +3,7 @@ layout: page
 title: PointResNet - Residual Network for 3D Point Cloud Segmentation and Classification
 description:
 img: assets/img/pointresnet-cover.png
-importance: 7
+importance: 8
 category: work
 project_pdf: https://arxiv.org/abs/2211.11040
 ---

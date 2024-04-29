@@ -3,7 +3,7 @@ layout: page
 title: Automated Active Learning for ZTF Data
 description: 
 img: assets/img/caltech-cover.png
-importance: 3
+importance: 4
 category: work
 github: https://github.com/saagar-parikh/scope
 project_pdf: https://drive.google.com/file/d/1yAK0L4ZAONK__nz-AtWX9mYuta2f_DDQ/view?usp=share_link

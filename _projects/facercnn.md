@@ -3,7 +3,7 @@ layout: page
 title: Comprehensive study of Face R-CNN
 description:
 img: assets/img/facercnn-cover.png
-importance: 6
+importance: 7
 category: work
 project_pdf: https://drive.google.com/file/d/1nCoyho-EXOt7Am2l4FZdO0t4xyWTeb65/view?usp=drive_link
 ---

@@ -3,7 +3,7 @@ layout: page
 title: LLM Integration in Automatic Speech Recognition
 description: 
 img: assets/img/asr-cover.png
-importance: 2
+importance: 3
 category: work
 github: https://github.com/saagar-parikh/ASR_LLM_Rescoring
 project_pdf: https://drive.google.com/file/d/1m7OwEnhLT1Gx3Nbn74WuoflzTzRrpT3Q/view?usp=drive_link
