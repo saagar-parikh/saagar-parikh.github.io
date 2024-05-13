@@ -3,7 +3,7 @@ layout: page
 title: Deep Gaussian Processes for Air Quality Inference
 description:
 img: assets/img/deepgp-cover.png
-importance: 6
+importance: 7
 category: work
 github: https://github.com/saagar-parikh/DeepGP-AQ-Inference
 ---
