@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DSM from multi-view satellite imagery
+title: Optimized NeRF for Satellite Imagery
 description:
 img: assets/img/boulder-cover.gif
 importance: 3
