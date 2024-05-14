@@ -6,14 +6,15 @@ img: assets/img/interp-cover.gif
 importance: 2
 category: work
 giscus_comments: false
+project_pdf: https://drive.google.com/file/d/1bf1mMj-KDffH-PN-cGEAXbZ3zTuCdcqH/view?usp=drive_link
 ---
 
 - Investigated layers and attention heads in the CLIP Text Encoder in stable diffusion models, focusing on prompts involving negation and bias.
 - Determining spurious correlations and adapting the model to improve zero-shot performance on challenging prompts.
 
-<!-- Quick Links:
-- [GitHub](https://github.com/saagar-parikh/soundsense)
-- [Report](https://drive.google.com/file/d/1gd2CBqqZalmUbNeanGAYaw2Z3fgrqGhR/view?usp=drive_link) -->
+<!-- - [GitHub](https://github.com/saagar-parikh/soundsense) -->
+Quick Links:
+- [Report](https://drive.google.com/file/d/1bf1mMj-KDffH-PN-cGEAXbZ3zTuCdcqH/view?usp=drive_link)
 
 ## Slide Deck
 
