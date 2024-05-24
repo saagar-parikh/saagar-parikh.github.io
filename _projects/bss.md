@@ -2,7 +2,7 @@
 layout: page
 title: Blind Source Separation
 description:
-img: assets/img/bss-cover.gif
+img: assets/img/bss-cover.png
 importance: 10
 category: work
 giscus_comments: false
