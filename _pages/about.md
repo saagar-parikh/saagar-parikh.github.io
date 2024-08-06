@@ -21,6 +21,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently pursuing an MS in Electrical and Computer Engineering at Carnegie Mellon University. With a strong foundation in engineering, I am committed to applying my skills for complex problem-solving and data-driven decision-making. My focus is on Computer Vision, Machine Learning, and Data Science.
 
-I am actively seeking Summer '24 internship opportunities in the realm of Machine Learning to contribute my expertise and learn from industry leaders.
+I am actively seeking full-time opportunities in the realm of Machine Learning to contribute my expertise and learn from industry leaders.
 
-**Interests:** Applied Machine Learning, Computer Vision, Data Science
+**Interests:** Applied Machine Learning, Generative AI, Computer Vision, Data Science
