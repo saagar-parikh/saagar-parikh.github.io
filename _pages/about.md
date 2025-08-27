@@ -19,6 +19,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing an MS in Electrical and Computer Engineering at Carnegie Mellon University. With a strong foundation in engineering, I have applied my skills to experiences in diverse areas like computer vision, AI, and systems optimization, blending algorithmic innovation with hardware efficiency. I am passionate about solving complex problems and driving impactful solutions.
-
-I am actively seeking 2025 full-time opportunities to contribute my expertise and learn from industry leaders.
+With a strong background in engineering, I’ve had the chance to work in areas like computer vision, Generative AI, and systems optimization. I am passionate about finding creative solutions that combine smart algorithms with hardware efficiency to tackle complex problems.
